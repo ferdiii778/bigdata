@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 import random
 
 # Koneksi MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://priaidaman:085778612820Iu%2A@test.knrjxyl.mongodb.net/?retryWrites=true&w=majority&appName=Test")
 db = client["berita_keamanan"]
 collection = db["berita"]
 berita_list = list(collection.find())
